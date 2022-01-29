@@ -5,9 +5,9 @@ import {
     FaGithubSquare,
 } from 'react-icons/fa';
 
-const SocialLinks = () => {
+const SocialLinks = ({styleClass}) => {
   return (
-      <ul>
+      <ul className={styleClass}>
           <li>
               <a href="https://twitter.com/mapTracy">
                   <FaTwitterSquare className='social-icon twitter-icon'></FaTwitterSquare>

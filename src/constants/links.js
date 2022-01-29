@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Links = () => {
+const Links = ({styleClass}) => {
   return (
-      <ul>
+      <ul className={styleClass}>
           <li>
               <Link to="/" className='page-link'>
                   Home
