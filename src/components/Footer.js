@@ -1,10 +1,16 @@
 import React from 'react';
+import SocialLinks from '../constants/socialLinks';
 
 const Footer = () => {
   return (
-      <div>
-          <h2>I am the footer</h2>
-      </div>
+      <footer className='footer'>
+        <div>
+          <SocialLinks />
+          <p>
+            &copy;{new Date().getFullYear()} Coder News. all rights reserved.
+          </p>
+        </div>
+      </footer>
   )
 };
 
