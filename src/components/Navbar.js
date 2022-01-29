@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../assets/spark-fitness-logo.svg';
 import Links from '../constants/links';
+import SocialLinks from '../constants/socialLinks';
 
 const Navbar = () => {
   return (
@@ -14,6 +15,7 @@ const Navbar = () => {
         </div>
       </div>
       <Links />
+      <SocialLinks />
     </nav>
   )
 };
