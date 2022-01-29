@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../assets/spark-fitness-logo.svg';
+import Links from '../constants/links';
 
 const Navbar = () => {
   return (
@@ -12,6 +13,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+      <Links />
     </nav>
   )
 };
