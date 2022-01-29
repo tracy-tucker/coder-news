@@ -14,8 +14,8 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      <Links />
-      <SocialLinks />
+      <Links styleClass="nav-links" />
+      <SocialLinks styleClass="nav-icons" />
     </nav>
   )
 };

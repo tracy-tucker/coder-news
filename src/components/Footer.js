@@ -5,7 +5,7 @@ const Footer = () => {
   return (
       <footer className='footer'>
         <div>
-          <SocialLinks />
+          <SocialLinks styleClass="footer-icons"/>
           <p>
             &copy;{new Date().getFullYear()} Coder News. all rights reserved.
           </p>
