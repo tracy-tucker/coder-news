@@ -15,12 +15,12 @@ const SocialLinks = ({styleClass}) => {
           </li>
           <li>
               <a href="https://medium.com/@tracy-tucker">
-                  <FaMedium className='social-icon twitter-icon'></FaMedium>
+                  <FaMedium className='social-icon medium-icon'></FaMedium>
               </a>
           </li>
           <li>
               <a href="https://github.com/tracy-tucker">
-                  <FaGithubSquare className='social-icon twitter-icon'></FaGithubSquare>
+                  <FaGithubSquare className='social-icon github-icon'></FaGithubSquare>
               </a>
           </li>
       </ul>
