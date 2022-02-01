@@ -1,6 +1,7 @@
 import React from 'react';
 import Links from '../constants/links';
 import { IoMdClose } from 'react-icons/io';
+import Categories from './Categories';
 
 const Sidebar = ({isOpen, toggle}) => {
   return (
@@ -10,7 +11,7 @@ const Sidebar = ({isOpen, toggle}) => {
         </button>
         <div className="sidebar-container">
           <Links styleClass="sidebar-links">
-            categories go here
+            <Categories />
           </Links>
         </div>
       </aside>
