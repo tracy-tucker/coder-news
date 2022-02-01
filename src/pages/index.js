@@ -5,7 +5,7 @@ import Layout from "../components/Layout"
 const IndexPage = () => {
   return (
     <Layout>
-      <Hero />
+      <Hero showCoder/>
       <h1>Home page goes here!</h1>
     </Layout>
   )
