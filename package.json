@@ -16,17 +16,21 @@
   "dependencies": {
     "@mdx-js/mdx": "^2.0.0",
     "@mdx-js/react": "^2.0.0",
+    "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^4.6.0",
     "gatsby-plugin-image": "^2.6.0",
     "gatsby-plugin-mdx": "^3.6.0",
     "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-plugin-styled-components": "^5.6.0",
+    "gatsby-remark-images": "^6.6.0",
     "gatsby-source-filesystem": "^4.6.0",
     "gatsby-transformer-sharp": "^4.6.0",
     "install": "^0.13.0",
     "npm": "^8.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.3.1"
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
