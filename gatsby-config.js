@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-module.exports = {
+ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-image`,
@@ -12,6 +12,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-remark-images`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,18 +27,18 @@ module.exports = {
         path: `${__dirname}/src/posts`,
       },
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWdith: 590,
-            },
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-mdx`,
+    //   options: {
+    //     gatsbyRemarkPlugins: [
+    //       {
+    //         resolve: 'gatsby-remark-images',
+    //         options: {
+    //           maxWidth: 590,
+    //         },
+    //       },
+    //     ],
+    //   },
+    // },
   ],
 }
