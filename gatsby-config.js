@@ -7,11 +7,11 @@
  module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-image`,
+    `gatsby-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
-    // `gatsby-remark-images`,
+    `gatsby-remark-images`,
 
     {
       resolve: `gatsby-source-filesystem`,
