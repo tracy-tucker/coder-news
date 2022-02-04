@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from './Post';
+import Banner from '../Banner';
 
 const Posts = ({ posts }) => {
   return (
@@ -13,6 +14,9 @@ const Posts = ({ posts }) => {
                   })}
               </article>
               {/* banner column */}
+              <article>
+                  <Banner />
+              </article>
           </div>
       </section>
   )
