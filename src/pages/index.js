@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import { graphql } from 'gatsby'
 
 const IndexPage = ({data}) => {
-  console.log(data)
+  console.log(data.allMdx.nodes)
   return (
     <Layout>
       <Hero showCoder/>
