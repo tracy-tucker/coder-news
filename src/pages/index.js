@@ -1,14 +1,18 @@
 import React from "react"
 import Hero from "../components/Hero"
 import Layout from "../components/Layout"
+import Posts from "../components/Posts"
 import { graphql } from 'gatsby'
 
 const IndexPage = ({data}) => {
-  console.log(data.allMdx.nodes)
+  
+  const {
+    allMdx: {nodes:posts}
+  } = data
   return (
     <Layout>
       <Hero showCoder/>
-      <h1>Home page goes here!</h1>
+      <Posts posts={posts} />
     </Layout>
   )
 }
