@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { graphql, useStaticQuery } from 'gatsby';
 import { Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-// import Title from './Title';
+import Title from './Title';
 
 export const query = graphql`
 {
@@ -37,6 +37,7 @@ const Recent = () => {
 
     return (
       <Wrapper>
+          <Title title="recent posts" />
           {posts.map(post => {
               const {title, slug, date, image } = post.frontmatter
               return <Link to={`/posts${slug}`} key={post.id} className='post'>

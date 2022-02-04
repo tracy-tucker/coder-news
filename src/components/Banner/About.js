@@ -1,12 +1,13 @@
 import React from 'react';
 import SocialLinks from '../../constants/socialLinks';
 import { StaticImage } from 'gatsby-plugin-image';
-// import Title from './Title';
+import Title from './Title';
 import styled from 'styled-components';
 
 const About = () => {
   return (
       <Wrapper>
+          <Title title="about author" />
           <StaticImage
             src='../../assets/banner-about.jpeg'
             layout='fixed'
