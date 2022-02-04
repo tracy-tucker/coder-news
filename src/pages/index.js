@@ -12,7 +12,7 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <Hero showCoder/>
-      <Posts posts={posts} />
+      <Posts posts={posts} title="recently published" />
     </Layout>
   )
 }
