@@ -28,13 +28,14 @@ export const query = graphql`
         category
         readTime
         slug
+        date(formatString: "MMMM, Do, YYYY")
         image {
           childImageSharp {
             gatsbyImageData
           }
         }
-        date(formatString: "MMMM, Do, YYYY")
       }
+      excerpt
     }
   }
 }
