@@ -15,6 +15,12 @@ exports.createPages = async ({graphql, actions }) => {
     `)
 
     result.data.allMdx.nodes.forEach(({frontmatter: { slug } }) => {
-        //
+        createPage({
+            path: `/posts/${slug}`,
+            component: path.resolve(`src/templates/post-template.js`),
+            context: {
+                slug,
+            }
+        })
     })
 }
