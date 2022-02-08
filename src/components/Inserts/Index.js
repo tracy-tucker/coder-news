@@ -14,7 +14,7 @@ export {
     Video,
     Headings,
     Code,
-    // Blockquote,
+    Blockquote,
 }
 
 // Come back to add PrismWrapper and ExampleCode

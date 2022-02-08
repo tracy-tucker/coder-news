@@ -20,7 +20,7 @@ const Blockquote = ({ children, display }) => {
     <Wrapper>
       <div className="container info">
         <FiInfo className='icon' />
-        {chilren}
+        {children}
       </div>
     </Wrapper>
   )
