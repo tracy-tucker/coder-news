@@ -40,7 +40,7 @@ const Recent = () => {
           <Title title="recent posts" />
           {posts.map(post => {
               const {title, slug, date, image } = post.frontmatter
-              return <Link to={`/posts${slug}`} key={post.id} className='post'>
+              return <Link to={`/posts/${slug}`} key={post.id} className='post'>
                   <GatsbyImage
                     image={getImage(image)}
                     alt={title}
