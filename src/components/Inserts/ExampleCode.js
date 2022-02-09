@@ -9,7 +9,8 @@ const exampleCoded = `
     })();
 `
 
-const ExampleCode = () => {
+const ExampleCode = (props) => {
+    console.log(props)
     return (
         <Highlight {...defaultProps} code={exampleCoded} language="jsx">
             {({ className, style, tokens, getLineProps, getTokenProps }) => (
