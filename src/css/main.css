@@ -347,7 +347,7 @@ Variables
   ===============
   */
   .hero {
-    /* background: var(--clr-primary-10); */
+    /* ----- background: var(--clr-primary-10); ----- */
     background-image: linear-gradient(#ff9d2f, #ff6126);
     height: 12rem;
     position: relative;
