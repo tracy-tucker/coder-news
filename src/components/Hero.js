@@ -6,7 +6,7 @@ const Hero = ({ showCoder }) => {
       <header className='hero'>
           {showCoder && (
               <StaticImage
-              src="../assets/computer-gal.png"
+              src="../assets/coder-news-person.png"
               placeholder='blurred'
               className='hero-person'
               alt="coder"
