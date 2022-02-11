@@ -347,7 +347,8 @@ Variables
   ===============
   */
   .hero {
-    background: var(--clr-primary-10);
+    /* background: var(--clr-primary-10); */
+    background-image: linear-gradient(#ff9d2f, #ff6126);
     height: 12rem;
     position: relative;
     z-index: -1;
@@ -401,7 +402,8 @@ Variables
   .posts-title {
     font-weight: 700;
     text-transform: uppercase;
-    color: #e12d39;
+    /* color: #e12d39; */
+    color: #00B38F;
     font-size: 1.25rem;
     margin-bottom: 2.5rem;
   }
