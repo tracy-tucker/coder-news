@@ -1,6 +1,6 @@
 import React from 'react';
 import Post from './Post';
-import Banner from '../Banner';
+import Banner from '../Banner/Index';
 
 const Posts = ({ posts, title }) => {
   return (
