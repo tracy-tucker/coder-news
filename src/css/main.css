@@ -7,6 +7,7 @@ Variables
 :root {
     /* dark shades of primary color*/
   
+    --clr-primary-0: #FF6126;
     --clr-primary-1: #e65722;
     --clr-primary-2: #cc4e1e;
     --clr-primary-3: #b3441b;
@@ -55,7 +56,8 @@ Variables
     --clr-grey-9: hsl(212, 33%, 89%);
     --clr-grey-10: hsl(206, 33%, 96%); */
 
-    --clr-green-dark: hsl(125, 67%, 35%);
+    --clr-green-dark: #00B38F;
+    /* --clr-green-dark: hsl(125, 67%, 35%); */
     --clr-green-light: hsl(134, 41%, 88%);
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-red-light: hsl(360, 71%, 66%);
@@ -169,8 +171,8 @@ Variables
     border-radius: var(--radius);
   }
   .btn:hover {
-    color: var(--clr-primary-1);
-    background: var(--clr-primary-8);
+    color: var(--clr-primary-9);
+    background: var(--clr-green-dark);
   }
   
   .btn-danger {

@@ -85,8 +85,8 @@ const Wrapper = styled.article`
       }
     }
     .link:hover {
-      border-color: var(--clr-primary-8);
-      color: var(--clr-primary-8);
+      border-color: var(--clr-green-dark);
+      color: var(--clr-green-dark);
     }
     footer {
       margin-top: 2rem;
