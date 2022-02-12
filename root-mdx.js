@@ -1,6 +1,6 @@
 import React from 'react'
 import { MDXProvider } from '@mdx-js/react'
-import { Headings, Code, Blockquote, ExampleCode, PrismWrapper } from './src/components/Inserts'
+import { Headings, Code, Blockquote, PrismWrapper } from './src/components/Inserts'
 
 const components = {
     h2: Headings.myH2,

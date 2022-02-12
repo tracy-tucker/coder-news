@@ -15,7 +15,6 @@ export {
     Headings,
     Code,
     Blockquote,
-    // ExampleCode,
     PrismWrapper,
 }
 
