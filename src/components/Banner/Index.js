@@ -14,7 +14,7 @@ const Banner = () => {
   )
 };
 
-const Wrapper = styled.div`
+const Wrapper = styled.aside`
     display: grid;
     grid-template-columns: 200px;
     justify-content: center;

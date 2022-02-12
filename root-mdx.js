@@ -7,7 +7,6 @@ const components = {
     h4: Headings.myH4,
     inlineCode: Code,
     blockquote: Blockquote,
-    // pre: ExampleCode,
     pre: PrismWrapper,
 }
 
