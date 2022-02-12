@@ -5,7 +5,6 @@ import * as Headings from './Headings';
 import Code from './Code';
 import Blockquote from './Blockquote';
 import PrismWrapper from './PrismWrapper';
-// import ExampleCode from './ExampleCode';
 
 export {
     Counter,
