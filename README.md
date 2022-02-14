@@ -12,13 +12,13 @@ VISIT THE [SITE LIVE](https://coder-news-online.netlify.app "Coder News")
 
 Welcome to 🗞 **Coder News** 🗞 - a blog designed with the developer in mind.
 
-⚙️ **Purpose:** On the surface, this blog looks like any other functioning site for a blogger. The difference is in the setup! This blog is designed with the Gatsby MDX Plugin. This opens up the opportunity for a developer to incorporate JSX within the markdown. 
+⚙️ **Purpose:** On the surface, this blog looks like any other functioning site for a blogger. The difference is in the setup! This blog is designed with the Gatsby MDX Plugin. This expands the opportunity for a developer to incorporate JSX within the markdown. 
 
 <!-- RECENT POSTS and CATEGORIES screenshots goes here -->
 <img src="https://res.cloudinary.com/tracyt/image/upload/v1644881588/posts-and-categories_n3zj2f.png" width="300" alt="Tags and Exercise Cards">
 
 <!--DISCUSS THE LAYOUT AND FILTERS -->
-⚙️ **A Quick Glance:** In the above screenshot, you can see the blog 
+⚙️ **A Quick Glance:** In the above screenshot, you can see the sophistication of the layout. These side components retrieve **POSTS** data to offer the user two different avenues for viewing posts - **RECENT POSTS** that give the viewer a minature sneak preview on five of the most recent posts, and **CATEGORIES** that filter the posts based on the assigned category.
 
 <!--DISCUSS THE CATEGORIES LISTING PAGE-->
 <!-- FULL EXERCISE CARD screenshot goes here -->
