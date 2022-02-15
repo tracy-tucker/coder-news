@@ -15,13 +15,13 @@ Welcome to 🗞 **Coder News** 🗞 - a blog designed with the developer in mind
 ⚙️ **Purpose:** On the surface, this blog looks like any other functioning site for a blogger. The difference is in the setup! This blog is designed with the Gatsby MDX Plugin. This expands the opportunity for a developer to incorporate JSX within the markdown.
 
 <!-- BLOG QUICK VIEW goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644883217/coder-news-quick-view_iv3ilh.png" width="300" alt="Quick view of blogs">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644883217/coder-news-quick-view_iv3ilh.png" width="600" alt="Quick view of blogs">
 
 <!--DISCUSS THE BLOG QUICK VIEW -->
 ⚙️ **Blog View:** The home screen is retrieving data on three posts, based on publish **DATE**. This quick view is organized to retrieve quick information about the posts, such as an **EXCERPT**, the **CATEGORY**, the estimated **READ TIME**, and provides a **LINK** for further reading.
 
 <!-- RECENT POSTS and CATEGORIES screenshots goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644881588/posts-and-categories_n3zj2f.png" width="300" alt="Recent Posts and Categories components">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644885581/coder-news-recent-posts_tnsiu1.png" width="300" alt="Recent Posts component"> <img src="https://res.cloudinary.com/tracyt/image/upload/v1644885593/coder-news-categories-comp_quyj5w.png" width="300" alt="Categories components">
 
 <!--DISCUSS THE HOME LAYOUT AND FILTERS -->
 ⚙️ **A Quick Glance:** In the above screenshot, you can see the sophistication of the layout. These side components on the home page retrieve **POSTS** data to offer the user two different avenues for viewing content - **RECENT POSTS** that give the viewer a little sneak preview on five of the most recent posts, and **CATEGORIES** that filter the posts based on the assigned category.
