@@ -54,15 +54,17 @@ Welcome to 🗞 **Coder News** 🗞 - a blog designed with the developer in mind
 🗞 **Coder News** 🗞 communicates with the data by utilizing the query language, GraphQL. Components throughout the project invoke queries requesting specific data objects that then get destructured and called to render iterated lists of information.
 
 <!-- GATSBY NODE API screenshot goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644677610/coder-news-gatsby-node-api_bwfvhq.png" width="300" alt="Gatsby Node API example">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644677610/coder-news-gatsby-node-api_bwfvhq.png" width="600" alt="Gatsby Node API example">
 
-<!--COME BACK TO THIS. TALK ABOUT GATSBY NODE API-->
-This project is integrated with the Gatsby Node API in order to create the **_POSTS_** and **_CATEGORIES_** pages. This execution will insert the newly created pages into the schema, thus making these as pages for the frontend and for running queries within components.
+<!--TALK ABOUT GATSBY NODE API-->
+This project is integrated with the Gatsby Node API in order to create the **_POSTS_** and **_CATEGORIES_** pages. This execution will insert the newly created pages into the schema, which  then creates pages for the frontend and for running queries within components.
 
 <!-- ROOT-MDX screenshot goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644677297/coder-news-root-mdx-shot_fu8pj2.png" width="300" alt="root-mdx example">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644677297/coder-news-root-mdx-shot_fu8pj2.png" width="600" alt="root-mdx example">
 
-<!--COME BACK TO THIS TO EXPLAIN ROOT-MDX-->
+<!--EXPLAIN ROOT-MDX-->
+To give the blog developer flexibility, the Gatsby MDX plugin was utilized for this project. This allows MDX pages to embed JSX within the markdown (hence the `MDXProvider` export), and to provide a more interactive blog post for the user.
+The Gatsby MDX plugin was also used to incorporate global styling for a few HTML elements within this project, such as `h2`, `h4`, `inlineCode`, `blockquote` and `pre`.
 
 <!-- Netlify screenshot goes here -->
 <img src="https://res.cloudinary.com/tracyt/image/upload/v1643137925/netlify-logo_lf8cts.png" width="200" alt="Netlify logo">
