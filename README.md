@@ -27,7 +27,7 @@ Welcome to 🗞 **Coder News** 🗞 - a blog designed with the developer in mind
 ⚙️ **A Quick Glance:** In the above screenshot, you can see the sophistication of the layout. These side components on the home page retrieve **POSTS** data to offer the user two different avenues for viewing content - **RECENT POSTS** that give the viewer a little sneak preview on five of the most recent posts, and **CATEGORIES** that filter the posts based on the assigned category.
 
 <!-- FULL POSTS screenshot goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644882886/coder-news-categories_v0zdk1.png" width="600" alt="Post Details">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644885216/coder-news-counter_ttbals.png" width="200" alt="Post Counter"> <img src="https://res.cloudinary.com/tracyt/image/upload/v1644885271/coder-news-styling-example_vutfu9.png" width="200" alt="Post Styling"> <img src="https://res.cloudinary.com/tracyt/image/upload/v1644885226/coder-news-videos_tlyijn.png" width="200" alt="Post Videos">
 
 <!--DISCUSS THE POSTS PAGE HERE-->
 ⚙️ **POSTS:** A click on a post will bring you to a dynamic template that lists the full content for that post. Posts contain examples of either React components incorporated into the blog, or an example of global styling that has been incorporated within the `root-mdx.js` file.
@@ -47,7 +47,7 @@ Welcome to 🗞 **Coder News** 🗞 - a blog designed with the developer in mind
 ### BEHIND THE SCENES
 
 <!-- React and GraphQL logos goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1643137654/react-gatsby-graphql-logos_r1m3ux.png" width="200" alt="React, Gatsby and GraphQL logos">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1643137654/react-gatsby-graphql-logos_r1m3ux.png" width="300" alt="React, Gatsby and GraphQL logos">
 
 🗞 **Coder News** 🗞 is made possible by utilizing the Javascript library, **_REACT_**, combined with the sophistication of the framework, **_GATSBY_** - a powerful static site generator.
 
