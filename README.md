@@ -27,18 +27,21 @@ Welcome to 🗞 **Coder News** 🗞 - a blog designed with the developer in mind
 ⚙️ **A Quick Glance:** In the above screenshot, you can see the sophistication of the layout. These side components on the home page retrieve **POSTS** data to offer the user two different avenues for viewing content - **RECENT POSTS** that give the viewer a little sneak preview on five of the most recent posts, and **CATEGORIES** that filter the posts based on the assigned category.
 
 <!-- FULL POSTS screenshot goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644882886/coder-news-categories_v0zdk1.png.png" width="600" alt="Category Details">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644882886/coder-news-categories_v0zdk1.png" width="600" alt="Post Details">
 
 <!--DISCUSS THE POSTS PAGE HERE-->
-⚙️ **Categories:** A click on a category will bring you to a dynamic template that lists only posts within that specific category. Similar to the home page layout, the template is retrieving a blog **IMAGE**, **TITLE**, associated **CATEGORY**, and a **LINK** for continued reading.
+⚙️ **POSTS:** A click on a post will bring you to a dynamic template that lists the full content for that post. Posts contain examples of either React components incorporated into the blog, or an example of global styling that has been incorporated within the `root-mdx.js` file.
 
 <!-- FULL CATEGORIES screenshot goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644882886/coder-news-categories_v0zdk1.png.png" width="600" alt="Category Details">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644882886/coder-news-categories_v0zdk1.png" width="600" alt="Category Details">
 
 <!--DISCUSS THE CATEGORIES PAGE HERE-->
 ⚙️ **Categories:** A click on a category will bring you to a dynamic template that lists only posts within that specific category. Similar to the home page layout, the template is retrieving a blog **IMAGE**, **TITLE**, associated **CATEGORY**, and a **LINK** for continued reading.
 
-<!--ADD NEWSLETTER SCREENSHOT-->
+<!--NEWSLETTER SCREENSHOT-->
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644884569/coder-news-newsletter_osd12q.png" width="600" alt="Category Details">
+
+<!--ADD NEWSLETTER EXPLAINED-->
 ⚙️ **Other Pages:** Feel free to try out the **_NEWSLETTER_** submission form. This utilizes Netlify Forms to execute the action method and to keep a record of each submission entry. 
 
 ### BEHIND THE SCENES
