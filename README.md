@@ -12,26 +12,31 @@ VISIT THE [SITE LIVE](https://coder-news-online.netlify.app "Coder News")
 
 Welcome to 🗞 **Coder News** 🗞 - a blog designed with the developer in mind.
 
-⚙️ **Purpose:** On the surface, this blog looks like any other functioning site for a blogger. The difference is in the setup! This blog is designed with the Gatsby MDX Plugin. This expands the opportunity for a developer to incorporate JSX within the markdown. 
+⚙️ **Purpose:** On the surface, this blog looks like any other functioning site for a blogger. The difference is in the setup! This blog is designed with the Gatsby MDX Plugin. This expands the opportunity for a developer to incorporate JSX within the markdown.
+
+<!-- BLOG QUICK VIEW goes here -->
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644883217/coder-news-quick-view_iv3ilh.png" width="300" alt="Quick view of blogs">
+
+<!--DISCUSS THE BLOG QUICK VIEW -->
+⚙️ **Blog View:** The home screen is retrieving data on three posts, based on publish **DATE**. This quick view is organized to retrieve quick information about the posts, such as an **EXCERPT**, the **CATEGORY**, the estimated **READ TIME**, and provides a **LINK** for further reading.
 
 <!-- RECENT POSTS and CATEGORIES screenshots goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1644881588/posts-and-categories_n3zj2f.png" width="300" alt="Tags and Exercise Cards">
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644881588/posts-and-categories_n3zj2f.png" width="300" alt="Recent Posts and Categories components">
 
-<!--DISCUSS THE LAYOUT AND FILTERS -->
-⚙️ **A Quick Glance:** In the above screenshot, you can see the sophistication of the layout. These side components retrieve **POSTS** data to offer the user two different avenues for viewing posts - **RECENT POSTS** that give the viewer a minature sneak preview on five of the most recent posts, and **CATEGORIES** that filter the posts based on the assigned category.
+<!--DISCUSS THE HOME LAYOUT AND FILTERS -->
+⚙️ **A Quick Glance:** In the above screenshot, you can see the sophistication of the layout. These side components on the home page retrieve **POSTS** data to offer the user two different avenues for viewing content - **RECENT POSTS** that give the viewer a little sneak preview on five of the most recent posts, and **CATEGORIES** that filter the posts based on the assigned category.
 
-<!--DISCUSS THE CATEGORIES LISTING PAGE-->
-<!-- FULL EXERCISE CARD screenshot goes here -->
-<img src="https://res.cloudinary.com/tracyt/image/upload/v1643155964/exercise-card-detail_pzjhbn.png" width="600" alt="Exercise Card Details">
+<!-- FULL POSTS screenshot goes here -->
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644882886/coder-news-categories_v0zdk1.png.png" width="600" alt="Category Details">
 
-<!--DISCUSS THE ADDED COMPONENTS AND CODE STYILNG-->
-⚙️ **Dive Deeper:** Open the exercise cards and you will find loads of info in an easy-to-read layout. The fitness library systematically pulls in all related info specific to each exercise and renders the collection within a clean, responsive format that flows for all screen sizes:
-* Quick **_DESCRIPTION_** of the exercise
-* Recommended **_REPS_**, **_EXECUTION TIME_** and **_SETS_** with identifiable icons
-* Collection of **_TAGS_** in relation to the exercise
-* List of step-by-step **_INSTRUCTIONS_**
-* A **_SETUP_** list
-* List of **_TOOLS_** needed to complete the exercise
+<!--DISCUSS THE POSTS PAGE HERE-->
+⚙️ **Categories:** A click on a category will bring you to a dynamic template that lists only posts within that specific category. Similar to the home page layout, the template is retrieving a blog **IMAGE**, **TITLE**, associated **CATEGORY**, and a **LINK** for continued reading.
+
+<!-- FULL CATEGORIES screenshot goes here -->
+<img src="https://res.cloudinary.com/tracyt/image/upload/v1644882886/coder-news-categories_v0zdk1.png.png" width="600" alt="Category Details">
+
+<!--DISCUSS THE CATEGORIES PAGE HERE-->
+⚙️ **Categories:** A click on a category will bring you to a dynamic template that lists only posts within that specific category. Similar to the home page layout, the template is retrieving a blog **IMAGE**, **TITLE**, associated **CATEGORY**, and a **LINK** for continued reading.
 
 <!--ADD NEWSLETTER SCREENSHOT-->
 ⚙️ **Other Pages:** Feel free to try out the **_NEWSLETTER_** submission form. This utilizes Netlify Forms to execute the action method and to keep a record of each submission entry. 
